@@ -1,1 +1,177 @@
-/*# sourceMappingURL=freepage_style_custom.css.map */
+@charset "UTF-8";
+.p-products-section {
+  padding-block: 60px 120px;
+}
+@media screen and (max-width: 768px) {
+  .p-products-section {
+    padding-block: 50px 100px;
+  }
+}
+
+.p-products-box {
+  max-width: 800px;
+  margin-inline: auto;
+}
+@media screen and (min-width: 960px) {
+  .p-products-box {
+    display: grid;
+    grid-template-columns: 1fr 370px;
+    gap: 30px;
+  }
+}
+
+.p-products-name {
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 0.2em;
+}
+.p-products-name i {
+  font-size: 18px;
+}
+.p-products-name em {
+  font-size: 24px;
+}
+
+p.p-products-variations,
+p.p-products-price {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p.p-products-price span {
+  font-size: 26px;
+  font-weight: 500;
+  padding-inline: 0.1em;
+}
+
+.p-products-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.c-list--color .panel {
+  width: 197px;
+}
+
+div.p-produts-btn__purchase {
+  margin-top: 30px;
+}
+div.p-produts-btn__purchase .c-button-fill {
+  max-width: 370px;
+}
+
+div.p-products-btn__top {
+  margin-top: 60px;
+}
+div.p-products-btn__top .c-button-arrow span {
+  font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "游明朝", "Yu Mincho", "ＭＳ Ｐ明朝", "MS PMincho", "Noto Serif JP", Georgia, serif;
+}
+
+.p-products-info {
+  margin-inline: auto;
+}
+@media screen and (min-width: 769px) {
+  .p-products-info {
+    width: min(100% - 60px, 800px);
+  }
+}
+
+#block-goods-detail--gallery.p-products-slider {
+  margin-inline: auto;
+}
+#block-goods-detail--gallery.p-products-slider .block-src-mv-wrapper {
+  opacity: 0;
+}
+#block-goods-detail--gallery.p-products-slider .block-src-mv-wrapper.swiper-initialized {
+  opacity: 1;
+}
+#block-goods-detail--gallery.p-products-slider .block-src-mv-wrapper figure {
+  border: 1px solid #b2b2b2;
+  max-width: 800px;
+}
+#block-goods-detail--gallery.p-products-slider .block-goods-gallery {
+  max-width: 800px;
+}
+@media screen and (min-width: 769px) {
+  #block-goods-detail--gallery.p-products-slider .block-goods-gallery {
+    margin-inline: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  #block-goods-detail--gallery.p-products-slider .block-goods-gallery {
+    margin: 0 -10px;
+  }
+}
+#block-goods-detail--gallery.p-products-slider .block-goods-gallery li {
+  width: 60px;
+  height: 60px;
+}
+#block-goods-detail--gallery.p-products-slider .block-goods-gallery li figure {
+  width: 60px;
+  height: 60px;
+}
+@media screen and (min-width: 960px) {
+  #block-goods-detail--gallery.p-products-slider {
+    max-width: 400px;
+  }
+  #block-goods-detail--gallery.p-products-slider .block-src-mv-wrapper {
+    max-width: 400px;
+  }
+  #block-goods-detail--gallery.p-products-slider .block-src-mv-wrapper figure {
+    max-width: 400px;
+    max-height: 400px;
+  }
+}
+#block-goods-detail--gallery.p-products-slider li.swiper-slide-thumb-active::after {
+  border-color: #b2b2b2;
+}
+#block-goods-detail--gallery.p-products-slider .swiper-button-prev {
+  left: 0;
+}
+@media screen and (max-width: 768px) {
+  #block-goods-detail--gallery.p-products-slider .swiper-button-prev {
+    left: 18px;
+  }
+}
+#block-goods-detail--gallery.p-products-slider .swiper-button-next {
+  right: 0;
+}
+@media screen and (max-width: 768px) {
+  #block-goods-detail--gallery.p-products-slider .swiper-button-next {
+    right: 18px;
+  }
+}
+@media screen and (max-width: 959px) {
+  #block-goods-detail--gallery.p-products-slider .swiper-button-prev,
+  #block-goods-detail--gallery.p-products-slider .swiper-button-next {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+}
+
+.p-tools__section .p-products-summary {
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .p-tools__section {
+    padding-top: 0;
+  }
+  .p-tools__section .p-products-summary {
+    margin-top: 150px;
+  }
+}
